@@ -1,0 +1,220 @@
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\appsettings.json
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\IntraCommunicationWebApi.exe
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\IntraCommunicationWebApi.deps.json
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\IntraCommunicationWebApi.runtimeconfig.json
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\IntraCommunicationWebApi.runtimeconfig.dev.json
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\IntraCommunicationWebApi.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\IntraCommunicationWebApi.pdb
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.csproj.AssemblyReference.cache
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.AssemblyInfoInputs.cache
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.AssemblyInfo.cs
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.csproj.CoreCompileInputs.cache
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\obj\Debug\net5.0\scopedcss\bundle\IntraCommunicationWebApi.styles.css
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\obj\Debug\net5.0\staticwebassets\IntraCommunicationWebApi.StaticWebAssets.Manifest.cache
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\obj\Debug\net5.0\staticwebassets\IntraCommunicationWebApi.StaticWebAssets.Pack.cache
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\obj\Debug\net5.0\staticwebassets\msbuild.IntraCommunicationWebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\obj\Debug\net5.0\staticwebassets\msbuild.build.IntraCommunicationWebApi.props
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.IntraCommunicationWebApi.props
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.IntraCommunicationWebApi.props
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.RazorTargetAssemblyInfo.cache
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.csproj.CopyComplete
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\obj\Debug\net5.0\refint\IntraCommunicationWebApi.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.pdb
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.genruntimeconfig.cache
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\obj\Debug\net5.0\ref\IntraCommunicationWebApi.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\BCrypt.Net-Next.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Arpit\source\repos\IntraCommunicationWebApi\IntraCommunicationWebApi\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\appsettings.json
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\IntraCommunicationWebApi.exe
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\IntraCommunicationWebApi.deps.json
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\IntraCommunicationWebApi.runtimeconfig.json
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\IntraCommunicationWebApi.runtimeconfig.dev.json
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\IntraCommunicationWebApi.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\IntraCommunicationWebApi.pdb
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\BCrypt.Net-Next.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.csproj.AssemblyReference.cache
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.AssemblyInfoInputs.cache
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.AssemblyInfo.cs
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.csproj.CoreCompileInputs.cache
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\obj\Debug\net5.0\scopedcss\bundle\IntraCommunicationWebApi.styles.css
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\obj\Debug\net5.0\staticwebassets\IntraCommunicationWebApi.StaticWebAssets.Manifest.cache
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\obj\Debug\net5.0\staticwebassets\IntraCommunicationWebApi.StaticWebAssets.Pack.cache
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\obj\Debug\net5.0\staticwebassets\msbuild.IntraCommunicationWebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\obj\Debug\net5.0\staticwebassets\msbuild.build.IntraCommunicationWebApi.props
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.IntraCommunicationWebApi.props
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.IntraCommunicationWebApi.props
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.RazorTargetAssemblyInfo.cache
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.csproj.CopyComplete
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\obj\Debug\net5.0\refint\IntraCommunicationWebApi.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.pdb
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.genruntimeconfig.cache
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\obj\Debug\net5.0\ref\IntraCommunicationWebApi.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\Project\IntraCommunicationWebApi\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\appsettings.json
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\IntraCommunicationWebApi.exe
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\IntraCommunicationWebApi.deps.json
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\IntraCommunicationWebApi.runtimeconfig.json
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\IntraCommunicationWebApi.runtimeconfig.dev.json
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\IntraCommunicationWebApi.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\IntraCommunicationWebApi.pdb
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\BCrypt.Net-Next.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.csproj.AssemblyReference.cache
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.AssemblyInfoInputs.cache
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.AssemblyInfo.cs
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.csproj.CoreCompileInputs.cache
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\obj\Debug\net5.0\scopedcss\bundle\IntraCommunicationWebApi.styles.css
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\obj\Debug\net5.0\staticwebassets\IntraCommunicationWebApi.StaticWebAssets.Manifest.cache
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\obj\Debug\net5.0\staticwebassets\IntraCommunicationWebApi.StaticWebAssets.Pack.cache
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\obj\Debug\net5.0\staticwebassets\msbuild.IntraCommunicationWebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\obj\Debug\net5.0\staticwebassets\msbuild.build.IntraCommunicationWebApi.props
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.IntraCommunicationWebApi.props
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.IntraCommunicationWebApi.props
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.RazorTargetAssemblyInfo.cache
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.csproj.CopyComplete
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\obj\Debug\net5.0\refint\IntraCommunicationWebApi.dll
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.pdb
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\obj\Debug\net5.0\IntraCommunicationWebApi.genruntimeconfig.cache
+C:\Users\Arpit\Desktop\Arpit Shukla\NewProject\IntraCommunicationWebApi\obj\Debug\net5.0\ref\IntraCommunicationWebApi.dll
