@@ -1,4 +1,4 @@
-﻿using IntraCommunicationWebApi.Models;
+﻿using IntraCommunicationWebApi.Model;
 using IntraCommunicationWebApi.ViewModels;
 using System.Threading.Tasks;
 

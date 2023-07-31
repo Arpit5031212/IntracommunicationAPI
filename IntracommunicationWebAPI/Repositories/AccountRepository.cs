@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using IntraCommunicationWebApi.Models;
+using IntraCommunicationWebApi.Model;
 using IntraCommunicationWebApi.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -14,13 +14,11 @@ namespace IntraCommunicationWebApi.Repositories
 {
     public class AccountRepository : IAccountRepository
     {
-        private readonly IntraCommunicationDatabaseContext dbContext;
-        private readonly IMapper mapper;
+        private readonly InterCommunicationDBContext dbContext;
 
-        public AccountRepository(IntraCommunicationDatabaseContext dbContext, IMapper mapper) 
+        public AccountRepository(InterCommunicationDBContext dbContext) 
         {
             this.dbContext = dbContext;
-            this.mapper = mapper;
         }
 
         //public async Task<UserProfile> SignIn(SignInViewModel _user)

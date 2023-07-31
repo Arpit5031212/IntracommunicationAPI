@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using IntraCommunicationWebApi.Models;
+using IntraCommunicationWebApi.Model;
 using IntraCommunicationWebApi.Repositories;
 using IntraCommunicationWebApi.ViewModels;
 using Microsoft.AspNetCore.Authorization;
@@ -15,14 +15,12 @@ namespace IntraCommunicationWebApi.Controllers
     [ApiController]
     public class AccountController : ControllerBase
     {
-        private readonly IMapper mapper;
         private readonly IAccountRepository account;
         private readonly IJWTManagerRepository jwtManager;
-        private readonly IntraCommunicationDatabaseContext dbContext;
-        public AccountController(IAccountRepository account, IMapper mapper, IntraCommunicationDatabaseContext dbContext, IJWTManagerRepository jwtManager)
+        private readonly InterCommunicationDBContext dbContext;
+        public AccountController(IAccountRepository account, InterCommunicationDBContext dbContext, IJWTManagerRepository jwtManager)
         {
             this.account = account;
-            this.mapper = mapper;
             this.dbContext = dbContext;
             this.jwtManager = jwtManager;
         }

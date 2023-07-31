@@ -1,7 +1,9 @@
-﻿using IntraCommunicationWebApi.Repositories;
+﻿using IntraCommunicationWebApi.Model;
+using IntraCommunicationWebApi.Repositories;
 using IntraCommunicationWebApi.ViewModels;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace IntraCommunicationWebApi.Controllers
@@ -27,30 +29,37 @@ namespace IntraCommunicationWebApi.Controllers
             return BadRequest("some error occured, try again.");
         }
 
-        [HttpPost("add/member/request")]
+        [HttpPost("add-member-request")]
         public async Task<IActionResult> AddGroupMembers([FromBody] GroupMemberViewModel member)
         {
             if (member == null) return BadRequest();
             var isAdded = await groupRepository.AddGroupMember(member);
             if(isAdded == true)
             {
-                return Ok("member added");
+                return Ok(new { message = "member added" });
             }else
             {
-                return Ok("invite sent");
+                return Ok(new { message = "invite sent" });
             }
         }
 
-        [HttpPost("accept/invitation")]
+        [HttpGet("invites")]
+        public async Task<IActionResult> GetAllInvites([FromQuery] int userId)
+        {
+            var invites = await groupRepository.GetAllInvites(userId); 
+            return Ok(invites);
+        }
+
+        [HttpPost("accept-invitation")]
         public async Task<IActionResult> AcceptInvite([FromQuery] int inviteId)
         {
             var accepted = await groupRepository.AcceptInvite(inviteId);
             if(accepted)
             {
-                return Ok("user accepted invitation");
+                return Ok(new { message = "user accepted invitation" });
             }else
             {
-                return Ok("user rejected invitation");
+                return Ok(new { message = "user rejected invitation" });
             }
         }
          

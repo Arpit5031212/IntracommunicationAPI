@@ -1,4 +1,5 @@
-﻿using IntraCommunicationWebApi.Models;
+﻿using IntraCommunicationWebApi.Model;
+using IntraCommunicationWebApi.ViewModels;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
@@ -10,6 +11,8 @@ namespace IntraCommunicationWebApi.Repositories
     {
         Task<List<UserProfile>> GetAllUsers();
         Task<List<UserProfile>> GetUsersByName(string name);
-        Task<UserProfile> UpdateUser(int id, JsonPatchDocument user);
+        Task<UserProfile> UpdateUserPatch(int id, JsonPatchDocument user);
+        Task<UserProfile> UpdateUser(int id, UserUpdateViewModel user);
+        Task<UserProfile> GetUserById(int userId);
     }
 }

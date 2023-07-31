@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 #nullable disable
 
-namespace IntraCommunicationWebApi.Models
+namespace IntraCommunicationWebApi.Model
 {
     [Index(nameof(GroupName), Name = "UK_Groups_Group_Name", IsUnique = true)]
     public partial class Group

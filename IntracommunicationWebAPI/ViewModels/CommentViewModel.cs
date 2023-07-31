@@ -13,7 +13,7 @@ namespace IntraCommunicationWebApi.ViewModels
         public int PostId { get; set; }
         [Required]
         public string CommentDescription { get; set; }
-        [Required]
-        public DateTime CommentedAt { get; set; }
+        
+        //public DateTime CommentedAt { get; set; }
     }
 }

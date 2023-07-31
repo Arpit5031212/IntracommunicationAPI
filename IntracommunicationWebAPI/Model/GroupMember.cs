@@ -6,20 +6,18 @@ using Microsoft.EntityFrameworkCore;
 
 #nullable disable
 
-namespace IntraCommunicationWebApi.Models
+namespace IntraCommunicationWebApi.Model
 {
     [Table("Group_Members")]
-    [Index(nameof(GroupId), Name = "IX_Group_Members_GroupID")]
-    [Index(nameof(MemberId), Name = "IX_Group_Members_MemberID")]
     public partial class GroupMember
     {
-        [Key]
-        [Column("ID")]
-        public int Id { get; set; }
         [Column("MemberID")]
         public int MemberId { get; set; }
         [Column("GroupID")]
         public int GroupId { get; set; }
+        [Key]
+        [Column("id")]
+        public int Id { get; set; }
 
         [ForeignKey(nameof(GroupId))]
         [InverseProperty("GroupMembers")]

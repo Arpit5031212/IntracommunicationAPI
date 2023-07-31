@@ -1,4 +1,4 @@
-﻿using IntraCommunicationWebApi.Models;
+﻿using IntraCommunicationWebApi.Model;
 using IntraCommunicationWebApi.ViewModels;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -14,14 +14,14 @@ namespace IntraCommunicationWebApi.Repositories
 {
     public class JWTManagerRepository : IJWTManagerRepository
     {
-        private readonly IntraCommunicationDatabaseContext db;
-        public JWTManagerRepository(IntraCommunicationDatabaseContext db, IConfiguration configuration) 
+        private readonly InterCommunicationDBContext db;
+        public JWTManagerRepository(InterCommunicationDBContext db, IConfiguration configuration) 
         {
             this.db = db;
-            iconfiguration = configuration;
+            Configuration = configuration;
         }
 
-        public IConfiguration iconfiguration { get; }
+        public IConfiguration Configuration { get; }
         public Tokens Authenticate(SignInViewModel user)
         {
             var isUser = db.UserProfiles.Where(u => u.Email == user.Email).FirstOrDefault();
@@ -29,7 +29,7 @@ namespace IntraCommunicationWebApi.Repositories
             if (isUser != null && BCrypt.Net.BCrypt.Verify(user.Password, isUser.Password))
             {
                 var tokenHandler = new JwtSecurityTokenHandler();
-                var tokenKey = Encoding.UTF8.GetBytes(iconfiguration["JWT:Key"]);
+                var tokenKey = Encoding.UTF8.GetBytes(Configuration["JWT:Key"]);
                 var tokenDescriptor = new SecurityTokenDescriptor
                 {
                     Subject = new ClaimsIdentity(new Claim[]

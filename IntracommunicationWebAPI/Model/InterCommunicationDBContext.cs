@@ -4,15 +4,15 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 #nullable disable
 
-namespace IntraCommunicationWebApi.Models
+namespace IntraCommunicationWebApi.Model
 {
-    public partial class IntraCommunicationDatabaseContext : DbContext
+    public partial class InterCommunicationDBContext : DbContext
     {
-        public IntraCommunicationDatabaseContext()
+        public InterCommunicationDBContext()
         {
         }
 
-        public IntraCommunicationDatabaseContext(DbContextOptions<IntraCommunicationDatabaseContext> options)
+        public InterCommunicationDBContext(DbContextOptions<InterCommunicationDBContext> options)
             : base(options)
         {
         }
@@ -42,14 +42,7 @@ namespace IntraCommunicationWebApi.Models
                 entity.HasOne(d => d.CommentedByNavigation)
                     .WithMany(p => p.Comments)
                     .HasForeignKey(d => d.CommentedBy)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Comments_Commented_By");
-
-                entity.HasOne(d => d.Post)
-                    .WithMany(p => p.Comments)
-                    .HasForeignKey(d => d.PostId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_Comments_PostID");
             });
 
             modelBuilder.Entity<Group>(entity =>
@@ -59,7 +52,8 @@ namespace IntraCommunicationWebApi.Models
                 entity.HasOne(d => d.CreatedByNavigation)
                     .WithMany(p => p.Groups)
                     .HasForeignKey(d => d.CreatedBy)
-                    .HasConstraintName("FK_Groups_Created_By");
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_Groups_User_Profile");
             });
 
             modelBuilder.Entity<GroupInvitesRequest>(entity =>
@@ -67,7 +61,6 @@ namespace IntraCommunicationWebApi.Models
                 entity.HasOne(d => d.CreatedByNavigation)
                     .WithMany(p => p.GroupInvitesRequestCreatedByNavigations)
                     .HasForeignKey(d => d.CreatedBy)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Group_Invites_Requests_Created_by");
 
                 entity.HasOne(d => d.Group)
@@ -92,7 +85,6 @@ namespace IntraCommunicationWebApi.Models
                 entity.HasOne(d => d.Member)
                     .WithMany(p => p.GroupMembers)
                     .HasForeignKey(d => d.MemberId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Group_Members_MemberID");
             });
 
@@ -101,13 +93,11 @@ namespace IntraCommunicationWebApi.Models
                 entity.HasOne(d => d.Post)
                     .WithMany(p => p.Likes)
                     .HasForeignKey(d => d.PostId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Likes_PostID");
 
                 entity.HasOne(d => d.User)
                     .WithMany(p => p.Likes)
                     .HasForeignKey(d => d.UserId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Likes_UserId");
             });
 
@@ -116,12 +106,6 @@ namespace IntraCommunicationWebApi.Models
                 entity.Property(e => e.PostType)
                     .IsUnicode(false)
                     .IsFixedLength(true);
-
-                entity.HasOne(d => d.PostedByNavigation)
-                    .WithMany(p => p.Posts)
-                    .HasForeignKey(d => d.PostedBy)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_Posts_PostedBy");
 
                 entity.HasOne(d => d.PostedOnGroupNavigation)
                     .WithMany(p => p.Posts)

@@ -1,4 +1,4 @@
-﻿using IntraCommunicationWebApi.Models;
+﻿using IntraCommunicationWebApi.Model;
 using IntraCommunicationWebApi.ViewModels;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
@@ -16,6 +16,7 @@ namespace IntraCommunicationWebApi.Repositories
         Task<Boolean> AddGroupMember(GroupMemberViewModel member);
         Task<Boolean> SendInvite_Request(GroupRequestModel invite);
         Task<Boolean> AcceptInvite(int InviteId);
+        Task<List<GroupInvitesRequest>> GetAllInvites(int userId);
         Task<List<GroupMember>> GetAllGroupMembers(int groupID);
         Task<List<Group>> GetGroupsByName(string groupName);
         Task<Group> CreateGroup(GroupCreateModel group, int id);

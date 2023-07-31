@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using IntraCommunicationWebApi.Models;
+using IntraCommunicationWebApi.Model;
 using IntraCommunicationWebApi.ViewModels;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
@@ -15,13 +15,19 @@ namespace IntraCommunicationWebApi.Repositories
     public class GroupRepository : IGroupRepository
     {
 
-        private readonly IntraCommunicationDatabaseContext dbContext;
+        private readonly InterCommunicationDBContext dbContext;
         private readonly IMapper mapper;
         
-        public GroupRepository(IntraCommunicationDatabaseContext dbContext, IMapper mapper)
+        public GroupRepository(InterCommunicationDBContext dbContext, IMapper mapper)
         {
             this.dbContext = dbContext;
             this.mapper = mapper;
+        }
+
+        public async Task<List<GroupInvitesRequest>> GetAllInvites(int userId)
+        {
+            var invite = await dbContext.GroupInvitesRequests.Where(i => i.SentTo == userId).ToListAsync();
+            return invite;
         }
 
         public async Task<Boolean> SendInvite_Request(GroupRequestModel invite)
@@ -168,8 +174,16 @@ namespace IntraCommunicationWebApi.Repositories
                     CreatedAt = System.DateTime.Now,
                     CreatedBy = AdminId,
                 };
+
+                try
+                {
                 await dbContext.Groups.AddAsync(new_group);
                 await dbContext.SaveChangesAsync();
+                }catch(System.Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    throw;
+                }
 
                 //new_group.GroupId
 

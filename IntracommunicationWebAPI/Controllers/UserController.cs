@@ -1,9 +1,11 @@
 ﻿using AutoMapper;
-using IntraCommunicationWebApi.Models;
+using IntraCommunicationWebApi.Model;
 using IntraCommunicationWebApi.Repositories;
+using IntraCommunicationWebApi.ViewModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Threading.Tasks;
 
 namespace IntraCommunicationWebApi.Controllers
@@ -12,13 +14,11 @@ namespace IntraCommunicationWebApi.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        private readonly IMapper mapper;
         private readonly IUserRepository user;
 
-        public UserController(IUserRepository user, IMapper mapper) 
+        public UserController(IUserRepository user) 
         {
             this.user = user;
-            this.mapper = mapper;
         }
 
         [HttpGet("all")]
@@ -35,7 +35,7 @@ namespace IntraCommunicationWebApi.Controllers
         
 
         [HttpGet("name")]
-        public async Task<IActionResult> GetUsersByName([FromBody] string name)
+        public async Task<IActionResult> GetUsersByName([FromQuery] string name)
         {
             var users = await user.GetUsersByName(name);
             if(users == null)
@@ -45,15 +45,38 @@ namespace IntraCommunicationWebApi.Controllers
             return Ok(users);
         }
 
-        [HttpPatch("update/{id}")]
-        public async Task<IActionResult> UpdateUser([FromRoute] int id, [FromBody] JsonPatchDocument UserPatchDoc)
+        [HttpGet("id")]
+        public async Task<IActionResult> GetUserById([FromQuery] int id)
+        {
+            var _user = await user.GetUserById(id);
+            if(user != null)
+            {
+                return Ok(_user);
+            }
+            return BadRequest("User Not Found");
+
+        }
+
+        [HttpPatch("patch/{id}")]
+        public async Task<IActionResult> UpdateUserPatch([FromRoute] int id, [FromBody] JsonPatchDocument UserPatchDoc)
         {
             if(UserPatchDoc == null)
             {
                 return BadRequest("provide details correctly.");
             }
-            await user.UpdateUser(id, UserPatchDoc);
+            await user.UpdateUserPatch(id, UserPatchDoc);
             return Ok();
+        }
+
+        [HttpPut("update/{id}")]
+        public async Task<IActionResult> UpdateUser([FromRoute] int id, [FromBody] UserUpdateViewModel UserUpdate)
+        {
+            if (UserUpdate == null)
+            {
+                return BadRequest("provide details correctly.");
+            }
+            await user.UpdateUser(id, UserUpdate);
+            return Ok(user);
         }
     }
 }

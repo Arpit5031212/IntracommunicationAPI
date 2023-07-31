@@ -1,4 +1,4 @@
-﻿using IntraCommunicationWebApi.Models;
+﻿using IntraCommunicationWebApi.Model;
 using IntraCommunicationWebApi.Repositories;
 using IntraCommunicationWebApi.ViewModels;
 using Microsoft.AspNetCore.Http;
@@ -40,13 +40,13 @@ namespace IntraCommunicationWebApi.Controllers
            
         }
 
-        [HttpDelete("delete/comment/{id}")]
+        [HttpDelete("delete-comment/{id}")]
         public async Task<IActionResult> DeleteComment([FromRoute] int id)
         {
             var comment_deleted = await postRepository.DeleteComment(id);
-            if(comment_deleted)
+            if (comment_deleted)
             {
-                return Ok("comment deleted");
+                return Ok(new { message = "comment deleted" });
             }
             return BadRequest();
         }
@@ -65,11 +65,11 @@ namespace IntraCommunicationWebApi.Controllers
         public async Task<IActionResult> GetPosts([FromRoute] int groupId)
         {
             var all_posts = await postRepository.GetPosts(groupId);
-            if(all_posts.Count() > 0)
+            if(all_posts.Count > 0)
             {
                 return Ok(all_posts);
             }
-            return null;
+            return Ok("No posts in group.");
         }
 
         [HttpPost("delete/{id}")]
@@ -80,15 +80,15 @@ namespace IntraCommunicationWebApi.Controllers
             return BadRequest();
         }
 
-        [HttpPost("like/{id}")]
+        [HttpPost("like")]
         public async Task<IActionResult> LikePost([FromBody] LikeViewModel like)
         {
             var liked = await postRepository.LikePost(like);
             if(liked)
             {
-                return Ok("post liked");
+                return Ok(new { message = "post liked" });
             }
-            return BadRequest();
+            return Ok(new { message = "like removed" });
         }
     }
 }

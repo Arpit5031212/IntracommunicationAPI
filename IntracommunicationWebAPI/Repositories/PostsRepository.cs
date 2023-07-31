@@ -1,4 +1,4 @@
-﻿using IntraCommunicationWebApi.Models;
+﻿using IntraCommunicationWebApi.Model;
 using IntraCommunicationWebApi.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -11,9 +11,9 @@ namespace IntraCommunicationWebApi.Repositories
 {
     public class PostsRepository : IPostRepository
     {
-        private readonly IntraCommunicationDatabaseContext dbContext;
+        private readonly InterCommunicationDBContext dbContext;
         
-        public PostsRepository(IntraCommunicationDatabaseContext dbContext)
+        public PostsRepository(InterCommunicationDBContext dbContext)
         {
             this.dbContext = dbContext;
         }
@@ -22,14 +22,14 @@ namespace IntraCommunicationWebApi.Repositories
         {
             var new_post = new Post()
             {
-                PostType = post.PostType,
+                PostType = "t",
                 PostedOnGroup = post.PostedOnGroup,
-                PostedAt = post.PostedAt,
+                PostedAt = System.DateTime.Now,
                 PostedBy = post.PostedBy,
                 PostDescription = post.PostDescription,
-                Url = post.Url,
-                StartTime = post.EventStartTime,
-                EndTime = post.EventEndTime,
+                Url = "",
+                StartTime = null,
+                EndTime = null,
             };
             await dbContext.Posts.AddAsync(new_post);
             await dbContext.SaveChangesAsync();
@@ -37,7 +37,7 @@ namespace IntraCommunicationWebApi.Repositories
         }
         public async Task<List<Post>> GetPosts(int groupId)
         {
-            var posts = await dbContext.Posts.Where(p => p.PostedOnGroup == groupId).ToListAsync();
+            var posts = await dbContext.Posts.Where(p => p.PostedOnGroup == groupId).Include(p => p.Likes).ToListAsync();
             return posts;
         }
 
@@ -47,6 +47,7 @@ namespace IntraCommunicationWebApi.Repositories
             if(post != null)
             {
                 dbContext.Posts.Remove(post);
+                dbContext.SaveChangesAsync();
                 return true;
             }
             return false;
@@ -58,6 +59,7 @@ namespace IntraCommunicationWebApi.Repositories
             if(comment != null)
             {
                 dbContext.Comments.Remove(comment);
+                dbContext.SaveChangesAsync();
                 return true;
             }
             return false;
@@ -72,7 +74,7 @@ namespace IntraCommunicationWebApi.Repositories
                 CommentedBy = comment.CommentedBy,
                 PostId = comment.PostId,
                 CommentDescription = comment.CommentDescription,
-                CommentedAt = comment.CommentedAt,
+                CommentedAt = System.DateTime.Now,
             };
 
             await dbContext.Comments.AddAsync(new_comment);
@@ -103,9 +105,19 @@ namespace IntraCommunicationWebApi.Repositories
                     UserId = like.userId
                 };
 
-                await dbContext.Likes.AddAsync(new_like);
-                await dbContext.SaveChangesAsync();
-                return true;
+                var isLiked = await dbContext.Likes.Where(l => l.PostId == like.postId && l.UserId == like.userId).FirstOrDefaultAsync();
+                if(isLiked != null )
+                {
+                    dbContext.Likes.Remove(isLiked);
+                    await dbContext.SaveChangesAsync();
+                    return false;
+                }else
+                {
+                    await dbContext.Likes.AddAsync(new_like);
+                    await dbContext.SaveChangesAsync();
+                    return true;
+                }
+
             }
 
             return false;
