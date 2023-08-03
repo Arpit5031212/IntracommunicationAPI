@@ -41,14 +41,14 @@ namespace IntraCommunicationWebApi.Controllers
         }
 
         [HttpDelete("delete-comment/{id}")]
-        public async Task<IActionResult> DeleteComment([FromRoute] int id)
+        public async Task<IActionResult> DeleteComment([FromRoute] int id, [FromQuery] int userId)
         {
-            var comment_deleted = await postRepository.DeleteComment(id);
+            var comment_deleted = await postRepository.DeleteComment(id, userId);
             if (comment_deleted)
             {
                 return Ok(new { message = "comment deleted" });
             }
-            return BadRequest();
+            return Ok(new { message = "You are not authorised to delete this comment." });
         }
 
         [HttpPost("add")]
@@ -72,12 +72,12 @@ namespace IntraCommunicationWebApi.Controllers
             return Ok("No posts in group.");
         }
 
-        [HttpPost("delete/{id}")]
-        public async Task<IActionResult> DeletePost([FromRoute] int id)
+        [HttpDelete("delete/{id}")]
+        public async Task<IActionResult> DeletePost([FromRoute] int id, [FromQuery] int userId)
         {
-            var post_deleted = await postRepository.DeletePost(id);
-            if (post_deleted) return Ok("post deleted");
-            return BadRequest();
+            var post_deleted = await postRepository.DeletePost(id, userId);
+            if (post_deleted) return Ok(new { message = "post deleted." });
+            return Ok(new { message = "You are not authorised to delete this post." });
         }
 
         [HttpPost("like")]

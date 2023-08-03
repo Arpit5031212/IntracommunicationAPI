@@ -11,9 +11,9 @@ namespace IntraCommunicationWebApi.Repositories
     {
         Task<Comment> PostComment(CommentViewModel comment);
         Task<List<Comment>> GetAllComments(int postId);
-        Task<Boolean> DeleteComment(int id);
+        Task<Boolean> DeleteComment(int id, int userId);
         Task<List<Post>> GetPosts(int groupId);
-        Task<Boolean> DeletePost(int id);
+        Task<Boolean> DeletePost(int id, int userId);
         Task<Post> AddPost(PostCreateModel post);
         Task<Boolean> LikePost(LikeViewModel like);
         Task<List<Like>> GetAllLikes(int postId);

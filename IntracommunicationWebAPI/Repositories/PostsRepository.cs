@@ -41,22 +41,22 @@ namespace IntraCommunicationWebApi.Repositories
             return posts;
         }
 
-        public async Task<Boolean> DeletePost(int id)
+        public async Task<Boolean> DeletePost(int id, int userId)
         {
             var post = await dbContext.Posts.FindAsync(id);
-            if(post != null)
+            if(post != null && post.PostedBy == userId)
             {
                 dbContext.Posts.Remove(post);
-                dbContext.SaveChangesAsync();
+                await dbContext.SaveChangesAsync();
                 return true;
             }
             return false;
         }
 
-        public async Task<Boolean> DeleteComment(int id)
+        public async Task<Boolean> DeleteComment(int id, int userId)
         {
             var comment = await dbContext.Comments.FindAsync(id);
-            if(comment != null)
+            if(comment != null && comment.CommentedBy == userId)
             {
                 dbContext.Comments.Remove(comment);
                 dbContext.SaveChangesAsync();

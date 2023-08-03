@@ -7,11 +7,16 @@ namespace IntraCommunicationWebApi.ViewModels
 {
     public class SignUpRequest
     {
+        [Required]
         public string FirstName { get; set; }
+        [Required]
         public string LastName { get; set; }
+        [Required, EmailAddress]
         public string Email { get; set; }
+        [Required]
         public string Contact { get; set; }
         public DateTime Dob { get; set; }
+        [Required, DataType(DataType.Password)]
         public string Password { get; set; }
         public string AddressLine1 { get; set; }
         public string AddressLine2 { get; set; }
